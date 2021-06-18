@@ -1,15 +1,12 @@
 #include<stdio.h>
-/*
- *main-is the entry point of code
+/**
+ *main- entry point
  *
- *Return-0 means execution was a success
+ *Return: always 0 (success)
  */
-
 int main(void)
 {
 char mysent[] = "\"Programming is like building a multilingual puzzle\n";
-puts (mysent);
-
-return(0);
- 
+puts(mysent);
+return (0);
 }
