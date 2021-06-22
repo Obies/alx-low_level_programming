@@ -1,12 +1,17 @@
-#include <stdio.h>
+#include "holberton.h"
 /**
- *main - entry point
+ *main - Print the word "Holberton"
  *
  *Return: always 0(success)
  */
 int main(void)
 {
-char *s=("Holberton\n");
-while (*s) putchar(*s++);
+int i;
+char p[] = "Holberton";
+for (i = 0; i < 9; i++)
+{
+_putchar(p[i]);
+}
+_putchar('\n');
 return (0);
-} 
+}
