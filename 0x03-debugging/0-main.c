@@ -1,4 +1,3 @@
-carrie@ubuntu:/debugging$ cat main.c
 #include "holberton.h"
 
 /**
