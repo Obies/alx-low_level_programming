@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- * _isupper - shows 1 if the input is uppercase character. 0 for the other cases.
+ * _isupper - checks for uppercase
  *@c: the character in ASCII code
  *
  *Return: 1 for uppercase, 0 for lowercase
