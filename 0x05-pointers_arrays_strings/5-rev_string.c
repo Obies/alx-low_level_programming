@@ -18,9 +18,9 @@ i++;
 s = s - i - 1;
 len = i;
 i = 0;
-while(i <= len)
+while (i <= len)
 {
-*s = temp[len -i];
+*s = temp[len - i];
 s++;
 i++;
 }
