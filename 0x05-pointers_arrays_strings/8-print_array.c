@@ -8,14 +8,10 @@
  */
 void print_array(int *a, int *n)
 {
-int x;
-for (x = 0; x < n; x++)
+while (n > 0)
 {
-printf("%d", a[x]);
-if (x != n - 1)
-{
-printf(", ");
+printf("%d\n", *a);
+a++;
+n--;
 }
-}
-printf("\n");
 }
