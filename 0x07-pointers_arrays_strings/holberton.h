@@ -1,6 +1,7 @@
 #ifndef HOLBERTON_H_
 #define HOLBERTON_H_
 #include <stdio.h>
+#include <string.h>
 
 char *_memset(char *s, char b, unsigned int n);
 char *memcpy(char *dest, char *src, unsigned int n);
