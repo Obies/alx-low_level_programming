@@ -1,28 +1,27 @@
+#include <stdio.h>
 /**
- *  * _strspn - Returns the number of bytes in the initial segment
- *   * of s which consist only of bytes from accept
- *    *
- *     * @s: string to search
- *      * @accept: characters to look for
- *       *
- *        * Return: number of bytes that matched at start of string
- *         */
-unsigned int _strspn(char *s, char *accept)
+ * print_diagsums - prints the sum of the two diagonals of square matrix integers
+ * @a: 2D array
+ * @size:  size of the square matrix
+ *
+ * Return: no return
+ */
+void print_diagsums(int *a, int size)
 {
-unsigned int sum = 0;
-char *ptr = accept;
-while (*s != 0)
-{
-if (*s == *ptr && *ptr != 0)
-{
-sum++;
-s++;
-ptr = accept;
-}
-else
-ptr++;
-if (*ptr == 0)
-return (sum);
-}
-return (sum);
+	int i;
+	int t = 0;
+	int t1 = 0;
+	int s = size * size;
+
+	for (i = 0; i < s; i += size + 1)
+	{
+		t += a[i];
+	}
+
+	for (i = size - 1; i < s - 1; i += size - 1)
+	{
+		t1 += a[i];
+	}
+
+	printf("%d, %d\n", t, t1);
 }
