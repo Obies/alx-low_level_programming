@@ -1,0 +1,1 @@
+This directory contains static library scripts/programmes written in C language!
