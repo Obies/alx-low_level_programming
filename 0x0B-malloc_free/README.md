@@ -1,0 +1,1 @@
+This directory contains memory allocation functions/scripts in C language!
