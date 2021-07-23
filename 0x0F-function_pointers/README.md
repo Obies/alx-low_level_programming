@@ -1,0 +1,1 @@
+This directory contains Function pointers in C language!
