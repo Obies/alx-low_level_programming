@@ -1,0 +1,1 @@
+This directory contains variadic functions in C language!
