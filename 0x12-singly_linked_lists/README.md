@@ -1,0 +1,1 @@
+This directory contains singly linked lists written in C language!
