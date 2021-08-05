@@ -1,0 +1,1 @@
+This directory contains functions/scripts compiled in C language!
